@@ -62,5 +62,7 @@ public class Aluno {
         JOptionPane.showMessageDialog(null,
                 mensagemFinal,
                 "Resultado da Avaliacao", JOptionPane.INFORMATION_MESSAGE);
+        
+        
     } 
 }
