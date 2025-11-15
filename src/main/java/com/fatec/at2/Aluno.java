@@ -52,8 +52,10 @@ public class Aluno {
             mensagemDesempenho = ("As notas inseridas são inválidas!");
         }
         
-        String mensagemFinal = ("Olá,  " + this.nomeCompleto + ". Seja Bem-Vindo! \n" +
-                                "Sua media final foi: " + media + "\n" +
+        String mediaFormatada = String.format("%.2f", media);
+        
+        String mensagemFinal = ("Olá, " + this.nomeCompleto + ". Seja Bem-Vindo! \n" +
+                                "Sua media final foi: " + mediaFormatada + "\n" +
                                 mensagemDesempenho
                 );
         
